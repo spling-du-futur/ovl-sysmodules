@@ -5,8 +5,8 @@
 #include <json.hpp>
 using json = nlohmann::json;
 
-constexpr const char *const amsContentsPath = "/atmosphere/contents";
-constexpr const char *const boot2FlagFormat = "/atmosphere/contents/%016lX/flags/boot2.flag";
+constexpr const char *const amsContentsPath = "/sxos/titles";
+constexpr const char *const boot2FlagFormat = "/sxos/titles/%016lX/flags/boot2.flag";
 
 static char pathBuffer[FS_MAX_PATH];
 
