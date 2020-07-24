@@ -1,4 +1,4 @@
-# ovlSysmodule
+# ovlSysmoduleSXOS
 
 A Tesla overlay that allows you to toggle sysmodules on the fly
 
